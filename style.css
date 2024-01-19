@@ -57,8 +57,12 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background: #e3e6f3;
+  background: #fcfcfc;
   box-shadow: 0 5px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 #navbar {
   display: flex;
@@ -78,17 +82,57 @@ body {
   transition: 0.3 ease;
 }
 
-#navbar li a:hover,
 #navbar li a.active {
-  color: #088178;
+  color: #06620A;
 }
-#navbar li a.active::after,
+#navbar li a:hover {
+  color: #B42323;
+}
+#navbar li a.active::after {
+  content: "";
+  width: 25%;
+  height: 2px;
+  background: #06620A;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
 #navbar li a:hover::after {
   content: "";
   width: 25%;
   height: 2px;
-  background: #088178;
+  background: #B42323;
   position: absolute;
   bottom: -4px;
   left: 20px;
+}
+#hero {
+  background-image: url(img/hero33-transformed.png);
+  height: 90vh;
+  width: 100%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#hero h4 {
+  padding-bottom: 15px;
+}
+#hero h1 {
+  color: #06620A;
+}
+#hero button {
+  background-image: url(img/button.png);
+  background-color: transparent;
+  color: #06620A;
+  cursor: pointer;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  font-size: 15px;
+  font-weight: 500;
+  border: 0;
 }
