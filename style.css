@@ -79,7 +79,7 @@ body {
 }
 #navbar {
   display: flex;
-  align-items: centers;
+  align-items: centerk;
   justify-content: center;
 }
 #navbar li {
@@ -119,11 +119,13 @@ body {
   bottom: -4px;
   left: 20px;
 }
-#mob {
+#mobile {
   display: none;
   align-items: center;
 }
-
+#close {
+  display: none;
+}
 #hero {
   background-image: url(img/hero33-transformed.png);
   height: 90vh;
@@ -479,19 +481,83 @@ footer .social a:hover  {
     right: -300px;
     width: 300px;
     background-color: #e3e6f3;
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 80px 0 0 10px;
+    transition: 0.3s;
+  }
+  #navbar.active {
+    right: 0px;
   }
   #navbar li {
   margin-bottom: 25px;
   }
-  #mob {
+
+  #mobile {
   display: flex;
   align-items: center;
   }
+
   #mobile i {
-    color: #fff;
+    color: #1a1a1a;
     font-size: 24px;
     padding-left: 20px;
   }
+  #close {
+    display: initial;
+    position: absolute;
+    top:30px;
+    left:30px;
+  }
+  #s-bag {
+    display: none;
+  }
+
+  #hero {
+    height: 50vh;
+    padding: 0 80px;
+    background-position: top 30% right 0;
+  }
+  #feature {
+    justify-content: center;
+  }
+  #feature .fea-box {
+    margin: 15px 15px;
+  }
+  .section-p1 {
+    padding: 20px 40px;
+  }
+  #product1 .prod-container {
+    justify-content: center;
+  }
+  #product1 .prod {
+    width: 30%;
+    margin: 15px;
+  }
+  #banner {
+    height: 30vh;
+  }
+  #small-bann .banner-box {
+    width: 100%;
+    height: 40vh;
+    margin: 20px;
+  }
+  #banner2 {
+    padding: 0 60px;
+  }
+  #banner2 .banner-box {
+    width: 30%;
+    height: 35vh;
+    padding: 10px;
+    background-image: url(img/banner/b171.jpg);
+  }
+  #newsletter .form {
+    display: flex;
+    width: 70%;
+  }
+  div.copyright {
+    display: block;
+    position: relative;
+    top: 350px;
+    left: -200px;
+ }
 }
