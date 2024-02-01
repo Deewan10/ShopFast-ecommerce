@@ -499,6 +499,11 @@ footer .social a:hover  {
   font-weight: 600;
 }
 
+#prod-details {
+  display: flex;
+  margin-top: 20px;
+}
+
 #prod-details .s-prod-img {
   width: 40%;
   margin-right: 50px;
@@ -510,6 +515,36 @@ footer .social a:hover  {
 .s-img-col {
   cursor: pointer;
   flex-basis: 23%;
+} 
+#prod-details .s-prod-details {
+  width: 50%;
+  padding-top: 30px;
+}
+#prod-details .s-prod-details h4 {
+  padding: 40px 0 20px 0;
+}
+#prod-details .s-prod-details h2{
+  font-size: 26px;
+}
+#prod-details .s-prod-details select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+#prod-details .s-prod-details input {
+   width: 50px;
+   height: 47px;
+   padding-left: 10px;
+   font-size: 16px;
+   margin-right: 10px;
+   outline: none;
+}
+#prod-details .s-prod-details button {
+  background-color: #088178;
+  color: #fff;
+}
+#prod-details .s-prod-details span {
+  line-height: 25px;
 }
 
 @media (max-width:799px) {
