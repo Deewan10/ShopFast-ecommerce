@@ -691,11 +691,26 @@ footer .social a:hover  {
   #banner2 .banner-box:nth-child(3) {
     background-image: url(img/banner/b181.jpg);
   }
+  #product1 .prod {
+    width: 50%;
+    margin: 15px;
+}
   #newsletter .form {
     width: 90%;
   }
   div.copyright {
     top: 3px;
     left: 50px;
+  }
+  #prod-details {
+    display: flex;
+    flex-direction: column;
+  }
+  #prod-details .s-prod-img {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #prod-details .s-prod-details {
+    width: 100%;
   }
 }
