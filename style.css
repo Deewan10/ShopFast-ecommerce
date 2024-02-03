@@ -571,10 +571,12 @@ footer .social a:hover  {
 #contact-details .details {
   width: 40%;
 }
-#contact-details .details span {
+#contact-details .details span,
+#form-details form span {
   font-size: 12px;
 }
-#contact-details .details h2 {
+#contact-details .details h2,
+#form-details form h2{
   font-size: 26px;
   line-height: 35px;
   padding: 20px 0;
@@ -595,6 +597,66 @@ footer .social a:hover  {
 #contact-details .details li p{
   margin: 0;
   font-size: 14px;
+}
+#contact-details .map {
+  width: 55%;
+  height: 400px;
+}
+#contact-details .map iframe{
+  width: 100%;
+  height: 100%;
+}
+
+#form-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  margin: 30px;
+  border: 1px solid #e1e1e1;
+}
+
+#form-details form{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#form-details form input,
+#form-details form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+}
+
+#form-details form button {
+  background-color: #088178;
+  color: #fff;
+}
+
+#form-details .peple div {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 25px;
+}
+
+#form-details .peple div img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+#form-details .people div p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 25px;
+}
+#form-details .people div p span {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
 }
 
 
@@ -691,6 +753,12 @@ footer .social a:hover  {
     top: 350px;
     left: -200px;
  }
+ #form-details {
+  padding: 40px;
+ }
+ #form-details {
+  width: 50%;
+ }
 }
 
 @media (max-width:477px) {
@@ -765,5 +833,33 @@ footer .social a:hover  {
   }
   #prod-details .s-prod-details {
     width: 100%;
+  }
+  #contact-details .details {
+    width: 100%;
+  }
+  #contact-details {
+    flex-direction: column;
+  }
+  #contact-details .map {
+    width: 100%;
+  }
+  #contact-details .details h2, #form-details form h2 {
+    font-size: 25px;
+  }
+  #contact-details .details {
+  margin-bottom: 30px;
+  }
+  #form-details {
+    display: block;
+    width: 85%;
+  }
+  #form-details form {
+    width: 100%;
+  }
+  #form-details form button {
+    margin-bottom: 20px;
+  }
+  .people img {
+    margin-top: 10px;
   }
 }
