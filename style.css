@@ -435,8 +435,11 @@ footer .col {
   flex-direction: column;
   margin-bottom: 20px;
 }
-footer .logo {
-  margin-bottom: 30px;
+.logo {
+  height: 50px;
+  width: 120px;
+  margin-left: -8px;
+ margin-bottom: 30px;
 }
 footer h4 {
   font-size: 14px;
@@ -836,8 +839,8 @@ footer .social a:hover  {
   div.copyright {
     display: block;
     position: relative;
-    top: 350px;
-    left: -200px;
+    top: 20px;
+    left: 150px;
  }
  #form-details {
   padding: 40px;
@@ -845,6 +848,7 @@ footer .social a:hover  {
  #form-details {
   width: 50%;
  }
+
 }
 
 @media (max-width:477px) {
@@ -947,5 +951,21 @@ footer .social a:hover  {
   }
   .people img {
     margin-top: 10px;
+  }
+  #cart {
+    overflow-x: auto;
+  }
+  
+  #cartt {
+    flex-direction: column;
+  }
+  #coupon {
+    width: 100%;
+  }
+  #coupon input {
+    width: 71%;
+  }
+  #subtotal {
+    width: 100%;
   }
 }
