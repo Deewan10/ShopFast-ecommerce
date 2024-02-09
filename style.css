@@ -79,7 +79,7 @@ body {
 }
 #navbar {
   display: flex;
-  align-items: centerk;
+  align-items: center;
   justify-content: center;
 }
 #navbar li {
@@ -774,22 +774,6 @@ footer .social a:hover  {
   margin-bottom: 25px;
   }
 
-  #mobile {
-  display: flex;
-  align-items: center;
-  }
-
-  #mobile i {
-    color: #1a1a1a;
-    font-size: 24px;
-    padding-left: 20px;
-  }
-  #close {
-    display: initial;
-    position: absolute;
-    top:30px;
-    left:30px;
-  }
   #s-bag {
     display: none;
   }
