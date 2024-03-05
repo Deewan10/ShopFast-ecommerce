@@ -638,7 +638,7 @@ footer .social a:hover  {
   color: #fff;
 }
 
-#form-details .peple div {
+#form-details .pe0ple div {
   display: flex;
   align-items: flex-start;
   padding-bottom: 25px;
@@ -773,7 +773,9 @@ footer .social a:hover  {
   #navbar li {
   margin-bottom: 25px;
   }
-
+  body {
+    width: 100%;
+  }
   #s-bag {
     display: none;
   }
@@ -832,12 +834,27 @@ footer .social a:hover  {
  #form-details {
   width: 50%;
  }
+ #mobile {
+  display: block;
+  align-items: center;
+  font-size: 30px;
+}
+#close {
+  display: block;
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
 
 }
 
 @media (max-width:477px) {
   #header {
     padding: 20px 40px;
+  }
+  body {
+    width: 100%;
   }
   #hero {
     height: 50vh;
