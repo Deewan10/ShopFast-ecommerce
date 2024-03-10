@@ -1008,17 +1008,24 @@ footer .social a:hover  {
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: repeat(3, auto);
   gap: 20px;
-  margin-top: -20px;
+  margin-top: -30px;
   margin-bottom: 30px;
+}
+#product1 h2 {
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
 }
 
   div.copyright {
     top: 3px;
-    left: 35px;
+    left: 33px;
 }
 #product1 .prod {
-  width: 75%;
+  width: 85%;
   margin: 15px;
+  padding: 15px 15px;
+  margin: 15px 0px;
 }
 }
 
